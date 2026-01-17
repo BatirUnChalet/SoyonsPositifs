@@ -1,9 +1,19 @@
-<!-- 1) Inclure le script -->
-<script type="module" src="/widgets/positive-thoughts-widget.js"></script>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Pensées positives</title>
+</head>
+<body>
+  <h1></h1>
 
-<!-- 2) Ajouter le widget où vous voulez -->
-<positive-thoughts-widget
-  data-json-url="/widgets/pensees.json"
-  data-suggest-url="https://github.com/BatirUnChalet/SoyonsPositifs/issues/new?template=suggestion.yml"
-  data-title="Pensée du moment">
-</positive-thoughts-widget>
+  <script type="module" src="./positive-thoughts-widget.js"></script>
+
+  <positive-thoughts-widget
+    data-json-url="./pensees.json"
+    data-title="Pensée du jour"
+    data-suggest-url="https://github.com/BatirUnChalet/SoyonsPositifs/issues/new">
+  </positive-thoughts-widget>
+
+</body>
+</html>
