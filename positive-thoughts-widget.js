@@ -30,7 +30,7 @@ class PositiveThoughtsWidget extends HTMLElement {
       <div class="card" role="region" aria-label="${this._escape(title)}">
         <p class="title">${this._escape(title)}</p>
         <p class="thought" id="thought">Chargement…</p>
-        <!--<p class="meta" id="meta"></p>-->
+        <p class="meta" id="meta"></p>
         <div class="actions">
           <button type="button" id="next">Nouvelle pensée</button>
           ${suggestUrl ? `<a class="btn" id="suggest" target="_blank" rel="noopener">Suggérer une pensée</a>` : ``}
@@ -79,8 +79,8 @@ class PositiveThoughtsWidget extends HTMLElement {
 
     thoughtEl.textContent = this.current.text ?? "";
     const parts = [];
-    if (this.current.lang) parts.push(this.current.lang.toUpperCase());
-    if (this.current.source) parts.push(this.current.source);
+    //if (this.current.lang) parts.push(this.current.lang.toUpperCase());
+    //if (this.current.source) parts.push(this.current.source);
     metaEl.textContent = parts.join(" · ");
   }
 
