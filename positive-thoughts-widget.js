@@ -33,6 +33,11 @@ class PositiveThoughtsWidget extends HTMLElement {
           z-index: 0;
           pointer-events: none;
         }
+		/* Contenu au-dessus du fond */
+        .card > * {
+          position: relative;
+          z-index: 1;
+        }
         .title { font-weight: 700; margin: 0 0 8px; }
         .thought { margin: 0 0 12px; line-height: 1.35; }
         .meta { font-size: 12px; opacity: 0.75; margin: 0 0 12px; }
