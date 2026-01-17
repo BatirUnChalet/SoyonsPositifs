@@ -1,9 +1,16 @@
 {
   "thoughts": [
-    { "text": "Tu gagnes.", "lang": "fr", "source": "Dave" },
-    { "text": "Tu ne te fâches pas.", "lang": "fr", "source": "Dave" },
-	{ "text": "Tu collabores.", "lang": "fr", "source": "Dave"  },
-	{ "text": "L'hiver achève!", "lang": "fr", "source": "Dave"  },
-	{ "text": "Tu gardes la tête hors de l'eau.", "lang": "fr", "source": "Dave"  }
+    { "text": "Tu es un gagnant!", "lang": "fr", "source": "Dave" },
+    { "text": "Tu rockes!", "lang": "fr", "source": "Dave" },
+	{ "text": "Tu collabores bien!", "lang": "fr", "source": "Dave"  },
+	{ "text": "Tu es inspirant!", "lang": "fr", "source": "Dave"  },
+	{ "text": "Tu fais une différence!", "lang": "fr", "source": "Dave" },
+	{ "text": "On peut compter sur toi!", "lang": "fr", "source": "Dave" },
+	{ "text": "Tu simplifies la vie des autres!", "lang": "fr", "source": "Dave" },
+	{ "text": "Tu fais avancer les choses!", "lang": "fr", "source": "Dave" },
+	{ "text": "Ton travail a de l'impact!", "lang": "fr", "source": "Dave" },
+	{ "text": "Tu es un héros du quotidien!", "lang": "fr", "source": "Dave" },
+	{ "text": "Sans toi, rien ne marche!", "lang": "fr", "source": "Dave" },
+	{ "text": "Tu es un acteur du changement!", "lang": "fr", "source": "Dave" }
   ]
 }
