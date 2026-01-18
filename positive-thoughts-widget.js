@@ -134,8 +134,8 @@ class PositiveThoughtsWidget extends HTMLElement {
         <p class="thought" id="thought">Chargement…</p>
         <p class="meta" id="meta"></p>
         <div class="actions">
-          <button type="button" id="next">Nouvelle pensée</button>
-          ${suggestUrl ? `<a class="btn" id="suggest" target="_blank" rel="noopener">Suggérer une pensée</a>` : ``}
+          <button type="button" id="next">Encore</button>
+          ${suggestUrl ? `<a class="btn" id="suggest" target="_blank" rel="noopener">Faire une suggestion</a>` : ``}
         </div>
       </div>
     `;
